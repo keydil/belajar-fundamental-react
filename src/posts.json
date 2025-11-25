@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Beajar Reactjs di codepolitan",
+        "tags": ["Reactjs", "Javascript", "Node.js"],
+        "author": "Fadhil",
+        "date": "2025-11-25"
+    },
+    {
+        "title": "Belajar cara meningkatkan performance Reactjs di codepolitan",
+        "tags": ["Nextjs", "Nuxtjs", "Supabase", "Postgresql"],
+        "author": "Udil",
+        "date": "2025-11-26"
+    },  
+    {
+        "title": "Cara menggunakan chakra ui di reactjs",
+        "tags": ["Nextjs", "Nuxtjs", "Supabase", "Postgresql"],
+        "author": "Surudil",
+        "date": "2025-11-27"
+    }
+]
