@@ -4,7 +4,9 @@ import Article from "./components/Arcticle";
 function App() {
   return (
     <div className="App">
-      <Article />
+      <Article name = "Fadhil" titles={["Reactjs", "Javascript", "Node.js"]} />
+      <br />
+      <Article name = "Udil" titles={["Nextjs", "Nuxtjs", "Supabase", "Postgresql"]} />
     </div>
   );
 }
