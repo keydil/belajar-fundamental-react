@@ -1,0 +1,33 @@
+/* NAVBAR WRAPPER */
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  /* background: #ffffff; */
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* LINK NORMAL */
+.navlink {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+/* HOVER */
+.navlink:hover {
+  color: #000;
+}
+
+/* LINK ACTIVE */
+.navlink.active {
+  color: #2563eb;               /* biru modern */
+  font-weight: 600;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 2px;
+}
