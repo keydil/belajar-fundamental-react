@@ -1,7 +1,7 @@
 import "./App.css";
 import { RouterProvider } from "react-router-dom";
-import { GlobalContext } from "./context.js";
-import { router } from "./routers.js";
+import { GlobalContext } from "./context";
+import { router } from "./routers";
 
 function App() {
   const user = {
