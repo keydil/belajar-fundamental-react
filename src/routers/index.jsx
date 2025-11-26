@@ -1,13 +1,13 @@
 import { createBrowserRouter } from "react-router-dom"; 
-import RootLayout from "../layouts/RootLayout";
+import RootLayout from "../layouts/RootLayout.jsx";
 
-import Home from "../pages/index";
-import Blog from "../pages/blogs/index";
-import Post from "../pages/blogs/_id";
-import About from "../pages/About";
-import Card from "../components/ErrorPage";
+import Home from "../pages/Index.jsx";
+import Blog from "../pages/blogs/index.jsx";
+import Post from "../pages/blogs/_id.jsx";
+import About from "../pages/About.jsx";
+import Card from "../components/ErrorPage.jsx";
 
-import { posts, postById } from "../apis/loaders";
+import { posts, postById } from "../apis/loaders.js";
 
 export const router = createBrowserRouter([
     {

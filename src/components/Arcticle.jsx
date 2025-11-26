@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { GlobalContext } from "../context";
+import { GlobalContext } from "../context.js";
 
 const ArticleStatus = ({ isNew }) => {
   return isNew && <span>-- Baru !!!</span> ;
