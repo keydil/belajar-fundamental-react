@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"; 
 import RootLayout from "../layouts/RootLayout.jsx";
 
+// apaansi udah gw benerin kocak
 import Home from "../pages/index.jsx";
 import Blog from "../pages/blogs/index.jsx";
 import Post from "../pages/blogs/_id.jsx";
