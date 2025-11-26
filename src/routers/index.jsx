@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"; 
 import RootLayout from "../layouts/RootLayout.jsx";
 
-import Home from "../pages/Index.jsx";
+import Home from "../pages/index.jsx";
 import Blog from "../pages/blogs/index.jsx";
 import Post from "../pages/blogs/_id.jsx";
 import About from "../pages/About.jsx";
