@@ -3,7 +3,7 @@ import Article from "../components/Arcticle";
 import { useEffect, useState } from "react";
 import Search from "../components/Search";
 
-function Homepage() {
+function Homepage({ name }) {
     const [posts, setPosts] = useState(postsData);
     const [totalPosts, setTotalPosts] = useState(0);
     const [externalPosts, setExternalPosts] = useState([]);
@@ -27,7 +27,7 @@ function Homepage() {
       <h1>Simple Blog</h1>
       <Search onSearchChange={onSearchChange} totalPosts={totalPosts} />
       {posts.map((props, index) => (   
-        <Article {...props} key={index} />
+        <Article {...props} key={index} name={name} />
       ))}
       <hr />
       <h2>External Posts</h2>
