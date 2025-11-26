@@ -1,7 +1,7 @@
 import postsData from "../posts.json";
-import Article from "../components/Arcticle";
+import Article from "../components/Arcticle.jsx";
 import { useEffect, useState } from "react";
-import Search from "../components/Search";
+import Search from "../components/Search.jsx";
 
 function Homepage({ name }) {
     const [posts, setPosts] = useState(postsData);
